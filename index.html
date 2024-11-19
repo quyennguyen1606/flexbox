@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<Style>
+    .header{
+        height: 80vh;
+        background: url(images/bg_header.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 50px;
+    }
+    .header .banner{
+        text-align: center;
+        padding: 100px 20px;
+        color: #ffff;
+    }
+    .header .banner h1{
+        font-size: 80px;
+    }
+    .header .banner .html{
+        color: red;
+    }
+    .header .banner button{
+        padding: 5px;
+        font-weight: 100px;
+        background: red;
+        color: #ffff;
+        border: none;
+        
+    }
+    .header .navbar{
+        width: 100%;
+        height: 15vh;
+        background: #cf372d;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+    }
+    .header .navbar .logo{
+        width:50%;
+    }
+    .header .navbar .logo img{
+        width: 400px;
+       
+    }
+    .header .navbar .menu{
+        width: 50%;
+    }
+    .header .menu ul{
+        display: flex;
+        list-style: none;
+        padding: 50px;
+    }
+    .header .menu ul a{
+        color: #ffff;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-right: 10px;
+        justify-content: end;
+        padding: 50px 20px;
+    }
+
+</Style>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Blog/News</a></li>
+                    <li><a href="#">Shop</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner">
+            <h1>Think Big. <span class="html">We do.</span></h1>
+            <p>Capitalise on low hanging fruit to dentify a ballpark</p>
+            <button>OUR PORFTFOLLIO
+                <i class="fa-solid fa-angle-right"></i>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
